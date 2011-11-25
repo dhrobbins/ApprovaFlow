@@ -1,0 +1,15 @@
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\TestSuite.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\TestSuite.pdb
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\ApprovaFlow.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\nunit.framework.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\Stateless.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\Newtonsoft.Json.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\Validation.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\ApprovaFlow.pdb
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\nunit.framework.xml
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\Newtonsoft.Json.pdb
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\Newtonsoft.Json.xml
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\obj\Debug\ResolveAssemblyReference.cache
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\obj\Debug\TestSuite.dll
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\obj\Debug\TestSuite.pdb
+F:\git\ApprovaFlow\ApprovaFlow\TestSuite\bin\Debug\TestSuite.dll.config

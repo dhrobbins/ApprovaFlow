@@ -1,0 +1,22 @@
+﻿{WorkflowType : "RequestPromotion",
+States : [{Name : "RequestPromotionForm", DisplayName : "Request Promotion Form"},
+	{Name : "ManagerReview", DisplayName : "Manager Review"},
+	{Name : "VicePresidentApprove", DisplayName : "Vice President Approve"},
+	{Name : "PromotionDenied", DisplayName : "Promotion Denied"},
+	{Name : "Promoted", DisplayName : "Promoted"}
+],
+Triggers : [{Name : "Complete", DisplayName : "Complete"},
+		{Name : "Approve", DisplayName : "Approve"},
+		{Name : "RequestInfo", DisplayName : "Request Info"},
+		{Name : "ManagerJustify", DisplayName : "Manager Justify"},
+		{Name : "Deny", DisplayName : "Deny"}
+],
+StateConfigs : [{State : "RequestPromotionForm", Trigger : "Complete", TargetState : "ManagerReview"},
+		{State : "ManagerReview", Trigger : "RequestInfo", TargetState : "RequestPromotionForm"},
+		{State : "ManagerReview", Trigger : "Deny", TargetState : "PromotionDenied"},
+		{State : "ManagerReview", Trigger : "Approve", TargetState : "VicePresidentApprove"},
+		{State : "VicePresidentApprove", Trigger : "ManagerJustify", TargetState : "ManagerReview"},
+		{State : "VicePresidentApprove", Trigger : "Deny", TargetState : "PromotionDenied"},
+		{State : "VicePresidentApprove", Trigger : "Approve", TargetState : "Promoted"}
+]
+}

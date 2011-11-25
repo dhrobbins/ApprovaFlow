@@ -1,0 +1,6 @@
+﻿[{"Name":"FetchDataFilter","FilterCategory":"Workflow", "TypeFullName" : "ApprovaFlowSimpleWorkflowProcessor.Filters.FetchDataFilter"},
+{"Name":"SaveDataFilter","FilterCategory":"Workflow","TypeFullName" : "ApprovaFlowSimpleWorkflowProcessor.Filters.SaveDataFilter"},
+{"Name":"TriggerStateFilter","FilterCategory":"Workflow","TypeFullName" : "ApprovaFlowSimpleWorkflowProcessor.Filters.TriggerStateFilter"},
+{"Name":"ValidParticipantFilter","FilterCategory":"Workflow","TypeFullName" : "ApprovaFlowSimpleWorkflowProcessor.Filters.ValidParticipantFilter"},
+{"Name":"MorePlugins.TransporterDiagnosisFilter","FilterCategory":"RedShirtPromotion","TypeFullName" : "MorePlugins.TransporterDiagnosisFilter"},
+{"Name":"Plugins.CaptainUnFitForCommandFilter","FilterCategory":"RedShirtPromotion","TypeFullName" : "Plugins.CaptainUnfitForCommandFilter"}]

@@ -1,0 +1,22 @@
+﻿{WorkflowType : "RequestPromotion",
+States : [{Name : "RequestPromotionForm", DisplayName : "Request Promotion Form"},
+	{Name : "FirstOfficerReview", DisplayName : "First Officer Review"},
+	{Name : "CaptainApproval", DisplayName : "Captain Approval"},
+	{Name : "PromotionDenied", DisplayName : "Promotion Denied"},
+	{Name : "PromotedOffLandingParty", DisplayName : "Promoted Off Landing Party"}
+],
+Triggers : [{Name : "Complete", DisplayName : "Complete"},
+		{Name : "Approve", DisplayName : "Approve"},
+		{Name : "RequestInfo", DisplayName : "Request Info"},
+		{Name : "OfficerJustify", DisplayName : "Officer Justify"},
+		{Name : "Deny", DisplayName : "Deny"}
+],
+StateConfigs : [{State : "RequestPromotionForm", Trigger : "Complete", TargetState : "FirstOfficerReview"},
+		{State : "FirstOfficerReview", Trigger : "RequestInfo", TargetState : "RequestPromotionForm"},
+		{State : "FirstOfficerReview", Trigger : "Deny", TargetState : "PromotionDenied"},
+		{State : "FirstOfficerReview", Trigger : "Approve", TargetState : "CaptainApproval"},
+		{State : "CaptainApproval", Trigger : "OfficerJustify", TargetState : "FirstOfficerReview"},
+		{State : "CaptainApproval", Trigger : "Deny", TargetState : "PromotionDenied"},
+		{State : "CaptainApproval", Trigger : "Approve", TargetState : "PromotedOffLandingParty"}
+]
+}
